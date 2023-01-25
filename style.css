@@ -1,0 +1,44 @@
+/* h1 {
+  color: red;
+}
+
+#title {
+  background-color: blue;
+}
+
+.header {
+  font-size: 13px;
+}
+
+.header li {
+  color: green;
+}
+
+#section1 > p {
+  color: blue;
+}
+
+#mon-paragraph + div {
+  font-weight: bold;
+} */
+
+#mon-paragraph::after {
+  content: "Mon Nouveau Text Ajouté";
+  color: blue;
+}
+
+#mon-paragraph::before {
+  content: "Mon Nouveau Text Ajouté";
+  color: blue;
+}
+
+p:first-child {
+  background-color: blueviolet;
+}
+
+ul li:nth-child(8) {
+  color: blue;
+}
+
+p:last-child {
+}
